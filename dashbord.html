@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>داشبورد</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>پیشخوان</li>
+            <li>پست‌ها</li>
+            <li>نظرات</li>
+            <li>پست جدید</li>
+        </ul>
+        <section>
+            <menu>
+                <li><span><img src="" alt="پروفایل"></span></li>
+                <li><span><img src="" alt="خروج"></span></li>
+            </menu>
+            <!--Pop-Up -->
+            <section>
+
+            </section>
+        </section>
+    </nav>
+    <aside>
+        <ul>
+            <li>پست ها
+                <ul>
+                    <li>بایگانی مطالب</li>
+                    <li>پست جدید</li>
+                    <li>نظرات</li>
+                </ul>
+                </li>
+                <li>افزونه ها</li>
+                <li>تنظیمات</li>
+            </ul>
+    </aside>
+    <main>
+        <section>
+            <h1>داشبورد</h1>
+            <p>در اینجا میتوانید مطالب جدید منتشر کنید، وبساینتتان را شخصی سازی کنید و بخش های مختلفش رامدیریت کنید</p>
+            <button><a href="#new-post">پست جدید</a></button>
+        </section>
+        <!-- Toolbar-->
+        <section>
+            <article>
+                <header><h3>پست فوری</h3></header>
+                <form action="" method="post" name="post">
+                    <label for="">
+                        عنوان
+                        <input type="text" name="title">
+                    </label><br>
+                    <label for="">
+                        برچسب ها
+                        <input type="text" name="title" placeholder="برچسب ها را با ویرگول جدا کنید. مثال: برچسب۱،برچسب ۲">
+                    </label><br>
+                    <label for="">
+                        توضیح مختصر
+                        <input type="text" name="summary" placeholder="توضیحات">
+                    </label><br>
+                    <label for="">
+                        متن پست
+                        <textarea name="post" id="" cols="30" rows="10" placeholder="متن پست"></textarea>
+                    </label><br>
+                    <button>ارسال پست</button>
+                </form>
+            </article>
+            <article>
+                <header><h3>پست سریع</h3> </header>
+                <blockquote cite="https://www.time.ir">
+                    <p>
+                        ویلیام جیمز مردی را توصیف می‌کند که این تجربه را با گاز خنده‌آور دریافت می‌کرد؛ هرگاه تحت اثر گاز خنده‌آور بود راز عالم را می‌دانست، اما وقتی از آن حالت خارج می‌شد، آن را فراموش می‌کرد. درنهایت، با تلاش فراوان، آن راز را پیش از اینکه بینشش از بین برود یادداشت کرد. هنگامی که به‌طور کامل به حالت عادی بازگشت، با شتاب سراغ چیزی که نوشته بود رفت. این بود: <br><span>«بوی نفت همه‌جا را گرفته است.»</span><br>  آنچه بینش ناگهانی به‌نظر می‌رسد ممکن است گمراه‌کننده باشد، و باید هنگامی که مستی برطرف می‌شود عاقلانه بررسی گردد.
+                    </p>
+                    <cite>براتراند راسل</cite>
+                </blockquote>
+            </article>
+        </section>
+        <section id="new-post">
+            <header><h3>پست چدید</h3></header>
+            <form action="" method="post" name="post">
+                <label for="">
+                    عنوان
+                    <input type="text" name="title">
+                </label><br>
+                <label for="">
+                    برچسب ها
+                    <input type="text" name="title" placeholder="برچسب ها را با ویرگول جدا کنید. مثال: برچسب۱،برچسب ۲">
+                </label><br>
+                <label for="">
+                    توضیح مختصر
+                    <input type="text" name="summary" placeholder="توضیحات">
+                </label>
+                <br>
+                <label for="">
+                    تصویر شاخص
+                    <input type="file" name="summary">
+                </label>
+                <br>
+                <label for="">
+                    پیوند یکتا:
+                    <input type="text" value="/">
+                </label>
+                <br>
+                <fieldset id="categories">
+                    <details>
+                        <summary><input type="checkbox" name="sport" id="sport">ورزشی</summary>
+                        <details>
+                            <summary>                            <label for="">
+                                <input type="checkbox" name="" id="">رزمی
+                            </label>
+</summary>
+                            <label for="">
+                                <input type="checkbox" name="" id="">کاراته
+                            </label><br>
+                            <label for="">
+                                <input type="checkbox" name="" id="">بوکس
+                            </label>
+                            <details>
+                                <summary>                            <label for="">
+                                    <input type="checkbox" name="" id="">سایر
+                                </label>
+    </summary>
+                                <label for="">
+                                    <input type="checkbox" name="" id="">جودو
+                                </label><br>
+                                <label for="">
+                                    <input type="checkbox" name="" id="">جوجیتسو
+                                </label>
+    
+                            </details>
+    
+                        </details>
+                    </details>
+                </fieldset>
+                <label for="">
+                    متن پست
+                    <textarea name="post" id="" cols="30" rows="10" placeholder="متن پست"></textarea>
+                </label>
+                <fieldset>
+                    <label for="">
+                        <label for=""><input type="radio" name="time" id="">در آینده<label>
+                        <br><input type="date" name="" id="">انتخاب</label><label>
+                            <br><input type="time" name="" id="">انتخاب</label></label>
+                        <br><label for="">
+<input type="radio" name="time" id="" checked>حالا</label> 
+                </fieldset>
+                <button>ارسال پست</button>
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>
