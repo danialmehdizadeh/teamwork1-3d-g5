@@ -9,10 +9,10 @@
 <body>
     <nav>
         <ul>
-            <li>پیشخوان</li>
-            <li>پست‌ها</li>
-            <li>نظرات</li>
-            <li>پست جدید</li>
+            <li><a href="#">پیشخوان</a></li>
+            <li><a href="#">پست ها</a></li>
+            <li><a href="#">نظرات</a></li>
+            <li><a href="#">پست جدید</a></li>
         </ul>
         <section>
             <menu>
@@ -29,12 +29,12 @@
         <ul>
             <li>پست ها
                 <ul>
-                    <li>بایگانی مطالب</li>
-                    <li>پست جدید</li>
-                    <li>نظرات</li>
+                    <li><a href="#">بایگانی مطالب</a></li>
+                    <li><a href="#">پست جدید</a></li>
+                    <li><a href="#">نظرات</a></li>
                 </ul>
                 </li>
-                <li>افزونه ها</li>
+                <li><a href="#">افزونه ها</a></li>
                 <li>تنظیمات</li>
             </ul>
     </aside>
@@ -77,6 +77,42 @@
                     <cite>براتراند راسل</cite>
                 </blockquote>
             </article>
+            <article id="latest-posts" >
+                <header><h3>آخرین مطالب منتشر شده</h3></header>
+                <table width="100%" >
+                    <thead >
+                        <colgroup>
+                            <col width="20%">
+                            <col span="3" width="10%" >
+                        </colgroup>
+                        <tr>
+                            <th>عنوان پست</th>
+                            <th>تاریخ انتشار</th>
+                            <th>نویسنده</th>
+                            <th>عملیات
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>عنوان آزمایشی ۱</td>
+                            <td><time datetime="2022-8-23">2022-8-23</time></td>
+                            <td>مدیریت</td>
+                            <td><input type="button" value="ویرایش"></td>
+                        </tr>                        <tr>
+                            <td>عنوان آزمایشی ۱</td>
+                            <td><time datetime="2022-8-23">2022-8-23</time></td>
+                            <td>مدیریت</td>
+                            <td><input type="button" value="ویرایش"></td>
+                        </tr>                        <tr>
+                            <td>عنوان آزمایشی ۱</td>
+                            <td><time datetime="2022-8-23">2022-8-23</time></td>
+                            <td>مدیریت</td>
+                            <td><input type="button" value="ویرایش"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
         </section>
         <section id="new-post">
             <header><h3>پست چدید</h3></header>
@@ -104,8 +140,9 @@
                     <input type="text" value="/">
                 </label>
                 <br>
+                <label for="categories">طبقه بندی مطالب</label>
                 <fieldset id="categories">
-                    <details>
+                    <details open>
                         <summary><input type="checkbox" name="sport" id="sport">ورزشی</summary>
                         <details>
                             <summary>                            <label for="">
@@ -133,7 +170,7 @@
                             </details>
     
                         </details>
-                    </details>
+                    </detailsopen>
                 </fieldset>
                 <label for="">
                     متن پست
