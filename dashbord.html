@@ -9,56 +9,57 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">پیشخوان</a></li>
-            <li><a href="#">پست ها</a></li>
-            <li><a href="#">نظرات</a></li>
-            <li><a href="#">پست جدید</a></li>
+            <li><a href="#">Dashbrd</a></li>
+            <li><a href="#">Posts</a></li>
+            <li><a href="#">Comments</a></li>
+            <li><a href="#">View Website</a></li>
         </ul>
         <section>
             <menu>
-                <li><span><img src="" alt="پروفایل"></span></li>
-                <li><span><img src="" alt="خروج"></span></li>
+                <li><span><img src="" alt="Avatar"></span>Profile</li>
+                <li><span><img src="" alt="log-out"></span>Log-out</li>
             </menu>
             <!--Pop-Up -->
             <section>
-
+                <!-- -->
             </section>
         </section>
     </nav>
     <aside>
         <ul>
-            <li>پست ها
+                <li>
+                <a href="">Posts</a>
                 <ul>
-                    <li><a href="#">بایگانی مطالب</a></li>
-                    <li><a href="#">پست جدید</a></li>
-                    <li><a href="#">نظرات</a></li>
+                    <li><a href="#">Post Archive</a></li>
+                    <li><a href="#">New Post</a></li>
+                    <li><a href="#">Comments</a></li>
                 </ul>
-                </li>
-                <li><a href="#">افزونه ها</a></li>
-                <li>تنظیمات</li>
+            </li>
+                <li><a href="#">Extensions</a></li>
+                <li><a href="#">Settings</a></li>
             </ul>
     </aside>
     <main>
         <section>
-            <h1>داشبورد</h1>
-            <p>در اینجا میتوانید مطالب جدید منتشر کنید، وبساینتتان را شخصی سازی کنید و بخش های مختلفش رامدیریت کنید</p>
-            <button><a href="#new-post">پست جدید</a></button>
+            <h1>Dashbord</h1>
+            <p>Here you can customize your website, add new posts and enjoy a good-looking dashbord page.</p>
+            <button><a href="#new-post">New Post</a></button>
         </section>
         <!-- Toolbar-->
         <section>
             <article>
-                <header><h3>پست فوری</h3></header>
+                <header><h3>Instant Post</h3></header>
                 <form action="" method="post" name="post">
                     <label for="">
-                        عنوان
+                        Title
                         <input type="text" name="title">
                     </label><br>
                     <label for="">
-                        برچسب ها
-                        <input type="text" name="title" placeholder="برچسب ها را با ویرگول جدا کنید. مثال: برچسب۱،برچسب ۲">
+                        Tags
+                        <input type="text" name="title" placeholder="Seperate different tags by comma e.g: Tag 1 , Tag 2 , ..">
                     </label><br>
                     <label for="">
-                        توضیح مختصر
+                        Description
                         <input type="text" name="summary" placeholder="توضیحات">
                     </label><br>
                     <label for="">
@@ -69,7 +70,7 @@
                 </form>
             </article>
             <article>
-                <header><h3>پست سریع</h3> </header>
+                <header><h3>Quote</h3> </header>
                 <blockquote cite="https://www.time.ir">
                     <p>
                         ویلیام جیمز مردی را توصیف می‌کند که این تجربه را با گاز خنده‌آور دریافت می‌کرد؛ هرگاه تحت اثر گاز خنده‌آور بود راز عالم را می‌دانست، اما وقتی از آن حالت خارج می‌شد، آن را فراموش می‌کرد. درنهایت، با تلاش فراوان، آن راز را پیش از اینکه بینشش از بین برود یادداشت کرد. هنگامی که به‌طور کامل به حالت عادی بازگشت، با شتاب سراغ چیزی که نوشته بود رفت. این بود: <br><span>«بوی نفت همه‌جا را گرفته است.»</span><br>  آنچه بینش ناگهانی به‌نظر می‌رسد ممکن است گمراه‌کننده باشد، و باید هنگامی که مستی برطرف می‌شود عاقلانه بررسی گردد.
@@ -78,7 +79,7 @@
                 </blockquote>
             </article>
             <article id="latest-posts" >
-                <header><h3>آخرین مطالب منتشر شده</h3></header>
+                <header><h3>Latest Posts</h3></header>
                 <table width="100%" >
                     <thead >
                         <colgroup>
@@ -86,10 +87,10 @@
                             <col span="3" width="10%" >
                         </colgroup>
                         <tr>
-                            <th>عنوان پست</th>
-                            <th>تاریخ انتشار</th>
-                            <th>نویسنده</th>
-                            <th>عملیات
+                            <th>Title</th>
+                            <th>Published date</th>
+                            <th>Author</th>
+                            <th>Command pallate
                             </th>
                         </tr>
                     </thead>
@@ -98,73 +99,73 @@
                             <td>عنوان آزمایشی ۱</td>
                             <td><time datetime="2022-8-23">2022-8-23</time></td>
                             <td>مدیریت</td>
-                            <td><input type="button" value="ویرایش"></td>
+                            <td><input type="button" value="edit"></td>
                         </tr>                        <tr>
                             <td>عنوان آزمایشی ۱</td>
                             <td><time datetime="2022-8-23">2022-8-23</time></td>
                             <td>مدیریت</td>
-                            <td><input type="button" value="ویرایش"></td>
+                            <td><input type="button" value="edit"></td>
                         </tr>                        <tr>
                             <td>عنوان آزمایشی ۱</td>
                             <td><time datetime="2022-8-23">2022-8-23</time></td>
                             <td>مدیریت</td>
-                            <td><input type="button" value="ویرایش"></td>
+                            <td><input type="button" value="edit"></td>
                         </tr>
                     </tbody>
                 </table>
             </article>
         </section>
         <section id="new-post">
-            <header><h3>پست چدید</h3></header>
+            <header><h3>ٔNew Post</h3></header>
             <form action="" method="post" name="post">
                 <label for="">
-                    عنوان
+                    Title
                     <input type="text" name="title">
                 </label><br>
                 <label for="">
-                    برچسب ها
-                    <input type="text" name="title" placeholder="برچسب ها را با ویرگول جدا کنید. مثال: برچسب۱،برچسب ۲">
+                    Tags
+                    <input type="text" name="title" placeholder="Title of Post">
                 </label><br>
                 <label for="">
-                    توضیح مختصر
-                    <input type="text" name="summary" placeholder="توضیحات">
+                    Summary
+                    <input type="text" name="summary" placeholder="Description">
                 </label>
                 <br>
                 <label for="">
-                    تصویر شاخص
+                    Feature image
                     <input type="file" name="summary">
                 </label>
                 <br>
                 <label for="">
-                    پیوند یکتا:
+                    Parmalink
                     <input type="text" value="/">
                 </label>
                 <br>
-                <label for="categories">طبقه بندی مطالب</label>
+                <label for="categories">categories</label>
                 <fieldset id="categories">
                     <details open>
-                        <summary><input type="checkbox" name="sport" id="sport">ورزشی</summary>
+                        <summary><input type="checkbox" name="sport" id="sport">Sports</summary>
                         <details>
                             <summary>                            <label for="">
-                                <input type="checkbox" name="" id="">رزمی
+                                <input type="checkbox" name="" id="">martial
                             </label>
 </summary>
                             <label for="">
-                                <input type="checkbox" name="" id="">کاراته
+                                <input type="checkbox" name="" id="">karate
                             </label><br>
                             <label for="">
-                                <input type="checkbox" name="" id="">بوکس
+                                <input type="checkbox" name="" id="">kick boxing
                             </label>
                             <details>
                                 <summary>                            <label for="">
-                                    <input type="checkbox" name="" id="">سایر
+                                    <input type="checkbox" name="" id="">more
                                 </label>
     </summary>
                                 <label for="">
-                                    <input type="checkbox" name="" id="">جودو
+                                    <input type="checkbox" name="" id="">judo
                                 </label><br>
                                 <label for="">
-                                    <input type="checkbox" name="" id="">جوجیتسو
+                                    <input type="checkbox" name="" id="">Jujutsu
                                 </label>
     
                             </details>
@@ -174,17 +175,17 @@
                 </fieldset>
                 <label for="">
                     متن پست
-                    <textarea name="post" id="" cols="30" rows="10" placeholder="متن پست"></textarea>
+                    <textarea name="post" id="" cols="30" rows="10" placeholder="Post Context"></textarea>
                 </label>
                 <fieldset>
                     <label for="">
-                        <label for=""><input type="radio" name="time" id="">در آینده<label>
-                        <br><input type="date" name="" id="">انتخاب</label><label>
-                            <br><input type="time" name="" id="">انتخاب</label></label>
+                        <label for=""><input type="radio" name="time" id="">In future<label>
+                        <br><input type="date" name="" id="">Date</label><label>
+                            <br><input type="time" name="" id="">Time</label></label>
                         <br><label for="">
-<input type="radio" name="time" id="" checked>حالا</label> 
+<input type="radio" name="time" id="" checked>Now</label> 
                 </fieldset>
-                <button>ارسال پست</button>
+                <button>Publish</button>
             </form>
 
         </section>
