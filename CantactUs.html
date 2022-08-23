@@ -9,21 +9,19 @@
   <body>
     <header>
       <nav>
-        <a href="index.html"><img src="" alt="photo of logo" /></a>
+        <a href="index.html"><img src="img/nbc-news.png" alt="nbc-news" /></a>
         <ul>
-          <li>POLITICS</li>
-          <li>PLAN YOUR VOTE</li>
-          <li>U.S.NEWS</li>
-          <li>OPINION</li>
-          <li>BUSINWSS</li>
-          <li>WORLD</li>
-          <li>COVID</li>
+          <li><a href="">Dashboard</a></li>
+          <li><a href="">Some News</a></li>
+          <li><a href="">Lists</a></li>
+          <li><a href="">Table</a></li>
+          <li><a href="">...</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <article>
-        <h1>About NBC News Digital</h1>
+        <h3>About NBC News Digital</h3>
         <p>
           NBC News Digital is a collection of innovative and powerful news
           brands that deliver compelling, diverse and visually engaging stories
@@ -39,33 +37,90 @@
       </article>
       <figcaption></figcaption>
       <section>
-        <form></form>
+        <h3>Contact Form:</h3>
+        <form action="">
+          <fieldset>
+            <legend>Please fill in your information</legend>
+            <label for="fname">First name:</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="your first name"
+              required
+            /><br /><br />
+            <label for="lname">Last name:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="your last name"
+              required
+            /><br /><br />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your email"
+              required
+            /><br /><br />
+            <label for="phone number">Phone number:</label>
+            <input
+              type="number"
+              id="phone number"
+              name="phone number"
+              placeholder="your phone number"
+              required
+            /><br /><br />
+            <label for="birthday">Birthday:</label>
+            <input
+              type="date"
+              id="birthday"
+              name="birthday"
+              required
+            /><br /><br />
+
+            <p>Choose your gender:</p>
+            <input type="radio" id="Male" name="gender" value="Male" />
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female" />
+            <label for="Male">Female</label>
+            <input type="radio" id="Othet" name="gender" value="Othet" />
+            <label for="Male">Othet</label><br /><br />
+
+            <label for="favorite news">What field is your favorite news?</label>
+            <select name="favorite news" id="favorite news">
+              <option value="case1">Sports</option>
+              <option value="case2">Political</option>
+              <option value="case3">Entertainment</option>
+              <option value="case4">Business</option></select
+            ><br /><br />
+
+            <label for="comment">Your comment:</label><br />
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Enter Your comment here ..."
+            ></textarea
+            ><br /><br />
+
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
       </section>
     </main>
     <aside></aside>
     <footer>
       <hr />
+      <h4>All Rights Reserved</h4>
       <section>
         <ul>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
-          <li>HELP</li>
-          <li>CAREERS</li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>AD CHOICES</li>
-          <li>PRIVACY POLICY</li>
-          <li>COOKIE NOTICE</li>
-          <li>CA NOTICE</li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>TERMS OF SERVICE</li>
-          <li>NBC NEWS SITEMAP</li>
-          <li>ADVERTISE</li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Dashboard</a></li>
+          <li><a href="">Contacts</a></li>
         </ul>
       </section>
       <p>© 2022 NBC UNIVERSAL</p>
